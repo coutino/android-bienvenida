@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="577dp"
+        android:layout_height="303dp"
+        app:srcCompat="@drawable/miimagenfondoandroid"/>
+
+    <TextView
+        android:layout_width="451dp"
+        android:layout_height="149dp"
+        android:text="@string/tit_bienvenido"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bot_entrar"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+
+</android.support.constraint.ConstraintLayout>
